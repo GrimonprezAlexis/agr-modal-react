@@ -9,7 +9,7 @@ export const Modal = ({ handleClose, show, title, body }) => {
       <section className="modal-main">
         <div className="modal-header">
           <h3>{title}</h3>
-          <button type="button" class="close" onClick={handleClose}>
+          <button type="button" className="close" onClick={handleClose}>
             <span aria-hidden="true">×</span>
           </button>
         </div>

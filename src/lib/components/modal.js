@@ -25,7 +25,7 @@ var Modal = function Modal(_ref) {
     className: "modal-header"
   }, /*#__PURE__*/_react.default.createElement("h3", null, title), /*#__PURE__*/_react.default.createElement("button", {
     type: "button",
-    class: "close",
+    className: "close",
     onClick: handleClose
   }, /*#__PURE__*/_react.default.createElement("span", {
     "aria-hidden": "true"
